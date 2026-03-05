@@ -19,8 +19,8 @@ class WhapiService extends CustomSmsServices
     public static array $requiredAttributes = [];
 
     // Hardcoded credentials - no need for smsAttributes
-    private $instanceId = '6894F29EC47E2';
-    private $accessToken = '688bbc76c6e38';
+    private $instanceId = '';
+    private $accessToken = '';
     private $deliverySuccessCode = "000";
 
     /**
@@ -81,6 +81,6 @@ class WhapiService extends CustomSmsServices
 /**
  * Usage: Set gateway_name = 'custom_sms', sms_service_name = 'WhapiService'
  * No additional settings required - credentials are hardcoded in the file
- * Instance ID: 6894F29EC47E2
- * Access Token: 688bbc76c6e38
+ * Instance ID: 
+ * Access Token: 
  */
